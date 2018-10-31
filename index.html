@@ -9,20 +9,29 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
+  <nav class="menu-fixed">
+  <ul class="list-inline center">
+    <li><a href="#me">me</a></li>
+    <li><a href="#contact">contact</a></li>
+    <li><a href="#movies">movies</a></li>
+    <li><a href="#about">about</a></li>
+  </ul>
+</nav>
+
   <div class="container">
-    <div class="card">
+    <div class="card" id="me">
       <img src="./images/avatar.png" alt="yup, that's me" style="width:100px;height:100px;" class="image-circle">
       <h1>Emmanuelle Nadal</h1>
       <h2>Wannabe Coder & Product Owner, amongst other stuff.</h2>
       <p>After a degree in biomedical engineering, and some experiences as a scientific researcher, I decided to join the startup world. I quickly got into web marketing and product, because, you know, learning new things is fun. I'm currently learning to code at <a href="https://www.lewagon.com/fr" target="_blank">Le Wagon</a>, and that's hella interesting!</p>
     </div>
-    <div class="card">
+    <div class="card" id="contact">
       <ul class="list-inline center">
         <li><a href="https://www.facebook.com/emmanuelle.nadal" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
         <li><a href="https://www.linkedin.com/in/emmanuellenadal/" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a></li>
       </ul>
     </div>
-    <div class="card">
+    <div class="card" id="movies">
       <h2>🍿 My favorite movies</h2>
       <table>
         <tbody>
@@ -65,10 +74,11 @@
         </tbody>
       </table>
     </div>
-    <div class="card">
+    <div class="card" id="about">
       <h2>✌️ About this page</h2>
       <p>This page has been coded during my bootcamp at Le Wagon. It also demonstrates my love for crappy 90s websites.</p>
     </div>
   </div>
+
 </body>
 </html>

@@ -34,9 +34,11 @@ a:hover {
   background: #F9EA22;
 }
 
+
 .container {
   width: 500px;
   margin: 30px auto;
+  margin-top: 100px;
 }
 
 .card {
@@ -76,6 +78,21 @@ a:hover {
 
 .movie-description {
   padding: 0px 0px 10px 10px;
+}
+
+.menu-fixed {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background: #EEEEEE;
+}
+
+nav ul {
+  font-family: 'VT323', monospace;
+  font-size: 24px;
+  padding-top: 0px;
 }
 
 @media (max-width: 960px) {
